@@ -24,12 +24,7 @@ AppBar buildAppbar(context){
   return AppBar(
     backgroundColor: Colors.white,
     elevation: 0.0,
-    leading: IconButton(
-      onPressed: () {
-        Navigator.pop(context);
-      },
-      icon: SvgPicture.asset('assets/icons/back.svg'),
-    ),
+
     actions: [
       IconButton(
         onPressed: () {},
